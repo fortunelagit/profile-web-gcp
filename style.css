@@ -1,0 +1,66 @@
+body {
+    background-image: url('./background.svg');
+    background-attachment: fixed;
+}
+
+div {
+    margin: 10px;
+    border-radius: 0.5rem;
+    padding: 10px 10px;
+}
+
+div #container-div{
+    /* background-image: url('./modern-flowing-red-curves-wave-banner.jpg'); */
+    background: rgb(185, 82, 82);
+    opacity: 0.8;
+}
+
+div .div-name {
+    font-size: 70px;
+    padding-bottom: 0px;
+    margin-left:50px;
+    font-weight: lighter;
+}
+
+div #name-start{
+    margin-top: 100px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+div #name-end{
+    margin-top: 0px;
+    padding-top: 0px;
+}
+
+.icon-container{
+    grid-row: auto;
+    margin-left: 30px;
+}
+
+.icon-item{
+    background-color: aqua;
+
+}
+
+.icon{
+    height: 40px;
+}
+
+.title {
+    font-size: larger;
+    font-weight: bold;
+}
+
+p{
+    font-weight: 200;
+}
+
+#some-content{
+    margin-top: 70px;
+}
+
+#side-photo{
+    height: 350px;
+    border-radius: 20px;
+}
